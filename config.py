@@ -114,22 +114,11 @@ SUPPORTED_MIME_TYPES = [
 
 class Messages:
     START_TEXT = """
-🎉 **Welcome to {bot_name}!** 🎉
+Hello {user_mention}! I'm fileshare bot
 
-Hello {user_mention}! I'm your secure file sharing assistant.
+powered by @Anime_nexuus
 
-🔐 **Key Features:**
-• Secure File Sharing
-• Unique Download Links
-• Multiple File Types Support
-• Real-time Tracking
-• Force Subscribe
 
-📢 Join @Thealphabotz for updates!
-👨‍💻 Contact @adarsh2626 for support
-A Open Source Repo :- github.com/utkarshdubey2008/alphashare
-
-Use /help to see available commands!
 """
 
     HELP_TEXT = """
@@ -155,25 +144,16 @@ Use /help to see available commands!
 
 🔗 **Batch System:**  
 • `/batch` - Group multiple files into one link.  
-• Forward files & reply with `/batch`.  
-
-
-🛠 **Open Source:**  
-🔗 [GitHub](https://github.com/utkarshdubey2008/alphashare)  
-
-⚠️ **Need Help?** Contact [@adarsh2626](https://t.me/adarsh2626)  
+• Forward files & reply with `/batch`.
 """
 
     ABOUT_TEXT = """
 ℹ️ **About {bot_name}**
 
 **Version:** `{version}`
-**Developer:** @adarsh2626
+**Developer:** @velora001
 **Language:** Python
 **Framework:** Pyrogram
-
-📢 **Updates:** @Thealphabotz
-🛠 **Support:** @adarsh2626
 
 **Features:**
 • Secure File Sharing
@@ -184,9 +164,6 @@ Use /help to see available commands!
 • Enhanced Security
 • Automatic File Type Detection
 
-use /repo to know more info
-
-Made with ❤️ by @adarsh2626
 """
 
     FILE_TEXT = """
@@ -220,8 +197,8 @@ class Buttons:
                 {"text": "About ℹ️", "callback_data": "about"}
             ],
             [
-                {"text": "Channel 📢", "url": CHANNEL_LINK},
-                {"text": "Developer 👨‍💻", "url": DEVELOPER_LINK}
+                {"text": "Channel 📢", "https://t.me/BORUTO_NARUTONEXT_GENERATIONSS": CHANNEL_LINK},
+                {"text": "Developer 👨‍💻", "https://t.me/ANIME_NEXUuS": DEVELOPER_LINK}
             ]
         ]
 
@@ -232,7 +209,7 @@ class Buttons:
                 {"text": "About ℹ️", "callback_data": "about"}
             ],
             [
-                {"text": "Channel 📢", "url": CHANNEL_LINK}
+                {"text": "Channel 📢", "https://t.me/ANIME_NEXUuS": CHANNEL_LINK}
             ]
         ]
 
@@ -243,7 +220,7 @@ class Buttons:
                 {"text": "Help 📚", "callback_data": "help"}
             ],
             [
-                {"text": "Channel 📢", "url": CHANNEL_LINK}
+                {"text": "Channel 📢", "https://t.me/ANIME_NEXUuS": CHANNEL_LINK}
             ]
         ]
 
@@ -254,7 +231,7 @@ class Buttons:
                 {"text": "Share 🔗", "callback_data": f"share_{file_uuid}"}
             ],
             [
-                {"text": "Channel 📢", "url": CHANNEL_LINK}
+                {"text": "Channel 📢", "https://t.me/ANIME_NEXUuS": CHANNEL_LINK}
             ]
         ]
 
