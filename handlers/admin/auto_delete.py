@@ -16,6 +16,6 @@ async def auto_delete_command(client: Client, message: Message):
         "The auto-delete feature has been shifted to the `config.py` file.\n"
         "Please open your `config.py` and set the value for `AUTO_DELETE_TIME` there.\n\n"
         "**Example:**\n"
-        "`AUTO_DELETE_TIME = 30  # in minutes`\n\n"
+        "`AUTO_DELETE_TIME = 10  # in minutes`\n\n"
         "Restart the bot after updating the configuration to apply changes."
     )
