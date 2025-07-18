@@ -197,8 +197,8 @@ class Buttons:
                 {"text": "About ℹ️", "callback_data": "about"}
             ],
             [
-                {"text": "Channel 📢", "https://t.me/BORUTO_NARUTONEXT_GENERATIONSS": CHANNEL_LINK},
-                {"text": "Developer 👨‍💻", "https://t.me/ANIME_NEXUuS": DEVELOPER_LINK}
+                {"text": "Channel 📢", "url": CHANNEL_LINK},
+                {"text": "Developer 👨‍💻", "url": DEVELOPER_LINK}
             ]
         ]
 
@@ -209,7 +209,7 @@ class Buttons:
                 {"text": "About ℹ️", "callback_data": "about"}
             ],
             [
-                {"text": "Channel 📢", "https://t.me/ANIME_NEXUuS": CHANNEL_LINK}
+                {"text": "Channel 📢", "url": CHANNEL_LINK}
             ]
         ]
 
@@ -220,7 +220,7 @@ class Buttons:
                 {"text": "Help 📚", "callback_data": "help"}
             ],
             [
-                {"text": "Channel 📢", "https://t.me/ANIME_NEXUuS": CHANNEL_LINK}
+                {"text": "Channel 📢", "url": CHANNEL_LINK}
             ]
         ]
 
@@ -231,7 +231,7 @@ class Buttons:
                 {"text": "Share 🔗", "callback_data": f"share_{file_uuid}"}
             ],
             [
-                {"text": "Channel 📢", "https://t.me/ANIME_NEXUuS": CHANNEL_LINK}
+                {"text": "Channel 📢", "url": CHANNEL_LINK}
             ]
         ]
 
