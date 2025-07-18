@@ -150,19 +150,7 @@ powered by @Anime_nexuus
     ABOUT_TEXT = """
 ℹ️ **About {bot_name}**
 
-**Version:** `{version}`
-**Developer:** @velora001
-**Language:** Python
-**Framework:** Pyrogram
-
-**Features:**
-• Secure File Sharing
-• Force Subscribe
-• Admin Controls
-• Real-time Stats
-• Multiple File Types
-• Enhanced Security
-• Automatic File Type Detection
+**Hii**
 
 """
 
@@ -184,7 +172,7 @@ powered by @Anime_nexuus
 ⚠️ **Access Restricted!**
 
 Please join our channel to use this bot:
-Bot By @Thealphabotz
+Bot by @Anime_nexuus
 
 Click button below, then try again!
 """
